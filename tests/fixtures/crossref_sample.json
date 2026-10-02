@@ -1,0 +1,17 @@
+{
+  "message": {
+    "total-result":1,
+    "items": [
+      {
+        "DOI": "10.1016/j.jlumin.2021.118000",
+        "title":  ["Enhanced luminescence of Eu3+ doped Y2O3 phosphors"],
+        "container-title":  ["Journal of Luminescence"],
+        "published": {"data-parts": [[2021, 6, 15]]},
+        "author": [
+          {"given": "Wei", "family": "Zhang"},
+          {"given": "Li", "family": "Chen"}
+        ]
+      }
+    ]
+  }
+}
