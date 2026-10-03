@@ -1,6 +1,6 @@
 {
   "message": {
-    "total-result":1,
+    "total-result":2,
     "items": [
       {
         "DOI": "10.1016/j.jlumin.2021.118000",
@@ -11,6 +11,13 @@
           {"given": "Wei", "family": "Zhang"},
           {"given": "Li", "family": "Chen"}
         ]
+      },
+      {
+        "DOI": "10.1016/j.jlumin.2020.117000",
+        "title": ["Thermoluminescence study of LiF:Mg,Ti"],
+        "container-title": [],
+        "published": {"data-parts": []},
+        "author": []
       }
     ]
   }

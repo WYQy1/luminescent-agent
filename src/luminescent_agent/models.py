@@ -5,4 +5,4 @@ class Paper:
     title: str
     journal: str |None
     year: str | None
-    frist_year: str | None
+    first_author: str | None
