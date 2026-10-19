@@ -1,20 +1,38 @@
-# 虚拟环境
-.venv/
-venv/
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
 
-# Python 缓存
+# Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 .pytest_cache/
+.coverage
+htmlcov/
 
-# IDE
-.idea/
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and OS files
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
-# 数据（大文件不入库）
-data/*.csv
-data/cache/
-
-# 临时
+# Logs, databases, local vector stores
 *.log
-tmp/
+logs/
+*.db
+*.sqlite3
+chroma_db/
+chroma/
+.qdrant/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+.ipynb_checkpoints/
