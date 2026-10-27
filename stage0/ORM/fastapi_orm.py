@@ -6,9 +6,9 @@ from models import User
 app=FastAPI()
 
 @app.post("/users")
-def create_user(name:str,age:int):
+def create_user(name:str,age:int,email:str):
     with SessionLocal() as session:
-        user=User(name=name,age=age)
+        user=User(name=name,age=age,email=email)
         session.add(user)
         session.commit()
         session.refresh(user)

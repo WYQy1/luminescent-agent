@@ -11,3 +11,5 @@ class User(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     name: Mapped[str] = mapped_column(String(50), nullable=False)
     age: Mapped[int] = mapped_column(nullable=False)
+    email:Mapped[str]=mapped_column(String(100))
+

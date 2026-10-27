@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs, databases, local vector stores
+*.log
+logs/
+*.db
+*.sqlite3
+chroma_db/
+chroma/
+.qdrant/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+.ipynb_checkpoints/
